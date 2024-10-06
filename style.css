@@ -1,0 +1,30 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.body{
+  background-color: rgb(184, 204, 72);
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-size: 25px;
+  
+}
+.txt{
+  margin: 50px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.333%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content:" ";
+    clear: both;
+    display: table;
+  }
